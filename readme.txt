@@ -7,9 +7,6 @@ cd C:\
 $pythonPath = "C:\Program Files\Python311"
 $env:PATH += ";$pythonPath"
 
-# Install Selenium using pip
-pip3 install selenium
-
 # Authentication
 
 # Set COMPANY environment variable
@@ -23,4 +20,10 @@ pip3 install selenium
 
 
 Exit
+_______________________________________________________________
+
+# RESTART POWERSHELL, BEFORE INSTALLING SELENIUM
+
+# Install Selenium using pip
+pip3 install selenium
 
